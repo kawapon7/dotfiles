@@ -1,0 +1,7 @@
+# 認証情報は絶対に含めない
+.credentials.json
+*.credentials.json
+# 会話履歴・マシン固有のもの
+sessions/
+projects/
+history.jsonl
