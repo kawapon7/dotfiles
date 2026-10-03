@@ -64,7 +64,7 @@
 - モットーは「最短よりも最適」。説明は運送業の比喩で伝えると通じやすい。
 - 回答は短く平易に。結論1〜2行、手順だけ。詳細は聞かれたら。
 - 作ったもの: HIBIKI（~/dev/unsou-system）、配員表 shift-app-1t-van、運行記録（手書き日報→スプシ）、シフト自動作成GAS。
-- 副業準備中: ココナラ / クラウドワークスでGAS自動化（週1件程度）。状況は ~/Claude/kokonara/NOTES.md
+- 副業準備中: ココナラ / クラウドワークスでGAS自動化（週1件程度）。状況は ~/dev/kokonara/NOTES.md
 - ブログ: ＰＧＦラボ https://pgf-lab.com （写真・ガジェット・釣り・AI活用の記事。PGF＝Photo/Gadget/Fishingと推測、本人未確認）。副業の屋号・ココナラ名・専用Gmail（pgflab.official@gmail.com）もこの名前でそろえる。
 - 機械: Mac mini（BLACKICE）が母艦、MacBook Air（ICEBREAKER）は覗き窓。メモリはフォルダごと・機械ごとに別なので、共通のことはこのファイルに書く。
 - このファイルは ~/dotfiles（GitHub kawapon7/dotfiles）の claude/CLAUDE.md へのリンク。ミニで直してcommit・push → Airでpullして同期する。
