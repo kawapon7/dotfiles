@@ -63,8 +63,15 @@
 - 元ガソリンスタンド所長とパチンコ店店長の経験を経て現在は軽貨物の個人事業主（会社員ではない）。IT経験はないが、HIBIKI開発などAIを使って本番運用までできる。
 - モットーは「最短よりも最適」。説明は運送業の比喩で伝えると通じやすい。
 - 回答は短く平易に。結論1〜2行、手順だけ。詳細は聞かれたら。
-- 作ったもの: HIBIKI（ミニの ~/dev/unsou-system）、配員表 shift-app-1t-van、運行記録（手書き日報→スプシ）、シフト自動作成GAS。
-- 副業準備中: ココナラ / クラウドワークスでGAS自動化（週1件程度）。状況は ~/dev/kokonara/NOTES.md
+- 作ったもの・作業フォルダ（~/dev はミニと Air で基本そろえている。GitHub は kawapon7/ の下）:
+  - HIBIKI: ミニの ~/dev/unsou-system。本番運用中。
+  - 配員表: ~/dev/shift-app-1t-van。岩国・徳山熊毛・徳山鹿野コースのドライバーシフト。Next.js、Vercel で公開。
+  - 業務集計カレンダー: ~/dev/gyoumu-calendar。業務集計のエクセル表を Web 画面にしたもの。
+  - GASシフトデモ: ~/dev/demo_shift。ココナラ出品用の見本（小さな店舗向けシフト管理）。
+  - 副業メモ: ~/dev/kokonara（NOTES.md）。
+  - BGM: ~/dev/BGM_contents。YouTube「PGF Music Lab」の作業用BGM制作。
+  - 運行記録（手書き日報→スプシ）・シフト自動作成GAS: Google スプレッドシート上のみ。
+- 副業準備中: ココナラ / クラウドワークスでGAS自動化（週1件程度）。状況は副業メモ参照。
 - ブログ: ＰＧＦラボ https://pgf-lab.com （PGF＝Photo/Gadget/Fishing。写真・ガジェット・釣り・AI活用の記事）。副業の屋号・ココナラ名・専用Gmail（pgflab.official@gmail.com）もこの名前でそろえる。
 - 機械: Mac mini（BLACKICE）が母艦（HIBIKI など本体はミニだけ）、MacBook Air（ICEBREAKER）は持ち出し用。メモリはフォルダごと・機械ごとに別なので、共通のことはこのファイルに書く。
 - このファイルは ~/dotfiles（GitHub kawapon7/dotfiles）の claude/CLAUDE.md へのリンク。どちらの機械で直してもよい。直す前に pull、直したら commit・push し、もう一方で pull して常に同じ内容にそろえる。
