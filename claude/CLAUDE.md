@@ -63,13 +63,17 @@
 - 元ガソリンスタンド所長とパチンコ店店長の経験を経て現在は軽貨物の個人事業主（会社員ではない）。IT経験はないが、HIBIKI開発などAIを使って本番運用までできる。
 - モットーは「最短よりも最適」。説明は運送業の比喩で伝えると通じやすい。
 - 回答は短く平易に。結論1〜2行、手順だけ。詳細は聞かれたら。
-- 作ったもの・作業フォルダ（~/dev はミニと Air で基本そろえている。GitHub は kawapon7/ の下）:
+- 作ったもの・作業フォルダ（GitHub は kawapon7/ の下。「ミニのみ」以外は Air にもある）:
   - HIBIKI: ミニの ~/dev/unsou-system。本番運用中。
   - 配員表: ~/dev/shift-app-1t-van。岩国・徳山熊毛・徳山鹿野コースのドライバーシフト。Next.js、Vercel で公開。
   - 業務集計カレンダー: ~/dev/gyoumu-calendar。業務集計のエクセル表を Web 画面にしたもの。
   - GASシフトデモ: ~/dev/demo_shift。ココナラ出品用の見本（小さな店舗向けシフト管理）。
   - 副業メモ: ~/dev/kokonara（NOTES.md）。
   - BGM: ~/dev/BGM_contents。YouTube「PGF Music Lab」の作業用BGM制作。
+  - 備忘録: ミニの ~/dev/blackice_note。メモはここに集める（HIBIKI 以外）。
+  - 朝のニュース: ミニの ~/dev/PGF_NEWS。RSS・株価・為替から毎朝6:00に読み上げ音声を作り R2 で配信。
+  - 経費データ取込: ミニの ~/dev/kakuteishinkoku_tool。NEXCO 利用明細CSV→やよいの青色申告オンライン取込CSV。
+  - バーチャル制作会社: ミニの ~/dev/web-design-agency。あいまいな依頼から Claude Code 用の画面単位プロンプトを作る。
   - 運行記録（手書き日報→スプシ）・シフト自動作成GAS: Google スプレッドシート上のみ。
 - 副業準備中: ココナラ / クラウドワークスでGAS自動化（週1件程度）。状況は副業メモ参照。
 - ブログ: ＰＧＦラボ https://pgf-lab.com （PGF＝Photo/Gadget/Fishing。写真・ガジェット・釣り・AI活用の記事）。副業の屋号・ココナラ名・専用Gmail（pgflab.official@gmail.com）もこの名前でそろえる。
