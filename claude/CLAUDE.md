@@ -32,7 +32,7 @@
 
 ## 3. 区切り
 - タスクが1つ終わったら、状態をファイルに残して `/clear` を提案する。会話履歴ではなくファイルで引き継ぐ。
-- `/clear` を提案するときは「今日の分を記録に残しますか」と1行で聞く。残すなら `~/dev/black_note/notes/<mini か air>/YYYY-MM-DD.md` に書く（機械は `hostname -s`。BLACKICE=mini、ICEBREAKER=air）。書く前に `git pull --ff-only`。HIBIKI の話は書かず HANDOVER へ。勝手に書かない。
+- 記録は区切りごとには聞かない。毎日 23:00 に `~/dev/black_note/ops/scripts/daily-note.sh`（launchd）が、その日の会話記録を要約して `~/dev/black_note/notes/<mini か air>/YYYY-MM-DD.md` に追記し commit・push する。ボスが「メモして」と言った時だけその場で書く（書く前に `git pull --ff-only`、機械は `hostname -s`。BLACKICE=mini、ICEBREAKER=air）。HIBIKI の話は書かず HANDOVER へ。
 
 ## 4. サブエージェントの使い分け
 サブエージェントは親の文脈を守るが、**自前のトークンを消費する。無料ではない。**
