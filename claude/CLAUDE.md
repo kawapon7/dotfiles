@@ -32,6 +32,7 @@
 
 ## 3. 区切り
 - タスクが1つ終わったら、状態をファイルに残して `/clear` を提案する。会話履歴ではなくファイルで引き継ぐ。
+- `/clear` を提案するときは「今日の分を記録に残しますか」と1行で聞く。残すなら `~/dev/blackice_note/notes/<mini か air>/YYYY-MM-DD.md` に書く（機械は `hostname -s`。BLACKICE=mini、ICEBREAKER=air）。書く前に `git pull --ff-only`。HIBIKI の話は書かず HANDOVER へ。勝手に書かない。
 
 ## 4. サブエージェントの使い分け
 サブエージェントは親の文脈を守るが、**自前のトークンを消費する。無料ではない。**
