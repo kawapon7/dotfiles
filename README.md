@@ -44,3 +44,12 @@ cd ~/dotfiles && git pull && ./claude/sync.sh pull
 各リポジトリの `.claude/`（スキル、`settings.local.json`、プロジェクトの `CLAUDE.md`）は
 そのリポジトリ自身で Git 管理されているため、ここでは扱わない。
 `git pull` すれば自動的に両マシンで揃う。
+
+## Codex/ — Codex のグローバル指示
+
+`Codex/AGENTS.md` を `~/.codex/AGENTS.md` からシンボリックリンクで参照する。
+ホーム直下（`~/AGENTS.md`）には置かない（Claude Code が全フォルダで CLAUDE.md と二重に読むため）。
+
+```bash
+ln -sf ~/dotfiles/Codex/AGENTS.md ~/.codex/AGENTS.md
+```
