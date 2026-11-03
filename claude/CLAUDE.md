@@ -23,7 +23,7 @@
 
 ## 3. 区切りと記録
 - タスクが1つ終わったら、状態をファイルに残して `/clear` を提案する。
-- 記録は毎日 23:00 に `~/dev/black_note/ops/scripts/daily-note.sh` が自動で書く。ボスが「メモして」と言った時だけその場で `~/dev/black_note/notes/<mini か air>/YYYY-MM-DD.md` に書く（先に `git pull --ff-only`）。HIBIKI の話は書かず HANDOVER へ。
+- 記録は毎日 2:45 に `~/dev/black_note/ops/scripts/daily-note.sh` が前日分を自動で書く（音声チャットは 2:30 に `notes/voice-chat/` へ取りこむ）。ボスが「メモして」と言った時だけその場で `~/dev/black_note/notes/<mini か air>/YYYY-MM-DD.md` に書く（先に `git pull --ff-only`）。HIBIKI の話は書かず HANDOVER へ。
 
 ---
 
