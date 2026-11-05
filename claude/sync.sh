@@ -3,7 +3,7 @@
 #
 #   ./sync.sh pull   リポジトリの settings.json を ~/.claude/ へ反映する（他マシンの変更を取り込む）
 #   ./sync.sh push   ~/.claude/settings.json をリポジトリへ取り込む（このマシンの変更を保存する）
-#   ./sync.sh link   新しいマシンで初回セットアップする（CLAUDE.md のリンクを張る）
+#   ./sync.sh link   新しいマシンで初回セットアップする（CLAUDE.md と skills/* のリンクを張る）
 #
 # CLAUDE.md はシンボリックリンクのため、このスクリプトによる同期は不要。
 # settings.json は Claude Code 自身が書き換える（/model 等）ため、
@@ -32,6 +32,10 @@ case "${1:-}" in
       echo "既存ファイルを CLAUDE.md.backup として退避しました。"
     fi
     ln -sfn "$REPO_DIR/CLAUDE.md" "$CLAUDE_DIR/CLAUDE.md"
+    mkdir -p "$CLAUDE_DIR/skills"
+    for s in "$REPO_DIR"/skills/*/; do
+      ln -sfn "${s%/}" "$CLAUDE_DIR/skills/$(basename "$s")"
+    done
     cp "$REPO_DIR/settings.json" "$CLAUDE_DIR/settings.json"
     echo "セットアップ完了: CLAUDE.md をリンクし、settings.json を配置しました。"
     ;;
