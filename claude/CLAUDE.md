@@ -39,6 +39,7 @@
   - 副業メモ（ココナラ / クラウドワークスでGAS自動化）: ~/dev/kokonara の NOTES.md
   - BGM（YouTube「PGF Music Lab」）: ~/dev/BGM_contents
   - ★備忘録（HIBIKI 以外のメモ）: ~/dev/black_note
+  - ★管制（セッションの把握と伝言だけ・作業はしない）: ~/dev/manager 。Air で `manager` と打つと机に入る
   - ★朝のニュース（毎朝6:00の読み上げ音声）: ~/dev/PGF_NEWS
   - ★経費データ取込（NEXCO→やよい）: ~/dev/kakuteishinkoku_tool
   - ★バーチャル制作会社（画面単位プロンプト作り）: ~/dev/web-design-agency
