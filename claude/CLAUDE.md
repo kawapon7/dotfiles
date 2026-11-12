@@ -25,7 +25,7 @@
 
 ## 3. 区切りと記録
 - タスクが1つ終わったら、状態をファイルに残して `/clear` を提案する。
-- 作業フォルダの進み具合は PROGRESS.md（冒頭に「▶ 次にやること」）。「次の作業」と聞かれた時・区切り・PROGRESS.md が無い時は progress スキルを使う（HIBIKI は除く）。
+- 作業フォルダの進み具合は PROGRESS.md（冒頭に「▶ 次にやること」）。「次の作業」と聞かれた時・区切り・計画を立てた時は progress スキルを使う。無ければ計画時か最初の区切りで作る（HIBIKI は除く）。
 - 記録は毎日 2:45 に `~/dev/black_note/ops/scripts/daily-note.sh` が前日分を自動で書く（音声チャットは 2:30 に `notes/voice-chat/` へ取りこむ）。ボスが「メモして」と言った時だけその場で `~/dev/black_note/notes/<mini か air>/YYYY-MM-DD.md` に書く（先に `git pull --ff-only`）。HIBIKI の話は書かず HANDOVER へ。
 
 ---
